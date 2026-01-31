@@ -16,10 +16,14 @@ WildBot is a Discord bot that uses the [iNaturalist API](https://api.inaturalist
 # 🎮 Commands
 ---
 - **`!animal [animal_name]`** - Sends a random observation photo of any animal species from iNaturalist's database using embeds. Includes common name, scientific name, location, date, observer, and link to original iNaturalist page for the observation.
+  
+![Example usage of !animal command](https://media.licdn.com/dms/image/v2/D562DAQH4VRjGXDq57g/profile-treasury-image-shrink_8192_8192/B56ZwRcVyQJIAg-/0/1769819168390?e=1770426000&v=beta&t=-vHu6vhQloSh84p8RfWS0lc_QEcWMP_GrI6OaTBMfEc)
 
 - **`!deer`** - Fun shortcut command for deer observations specifically
 
 - **`!taxonhelp [animal_name]`** - Search taxonomy database and get scientific names for a given animal to provide suggestions for more accurate or specific searches.
+
+![Example usage of taxonhelp command](https://media.licdn.com/dms/image/v2/D562DAQHDNw3SqwxCNA/profile-treasury-image-shrink_1920_1920/B56ZwRcm1bJIAc-/0/1769819238047?e=1770426000&v=beta&t=VKGxjHlgZvg6G1Xp0G8xBmkkNmevaGloZA3l_Lh2Hko)
 
 # 🚀 Local Setup Instructions
 ---
