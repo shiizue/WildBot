@@ -67,7 +67,7 @@ No API key is needed for iNaturalist's API since it is public and does not requi
 python bot.py
 ```
 
-You should see `Logged in as WildBot#8310`
+You should see `Logged in as WildBot#1234`
 
 # 🎯 Roadmap
 ---
