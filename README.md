@@ -47,21 +47,21 @@ pip install -r requirements.txt
 4. Enable **Message Content Intent** under **Privileged Gateway Intents**.
 5. Copy your bot token
 
-### 2. Create a `.env` file with your Discord bot token
+### 4. Create a `.env` file with your Discord bot token
 
 ```
    DISCORD_TOKEN=your_token_here
 ```
 
 No API key is needed for iNaturalist's API since it is public and does not require authentication.
-### 3. Invite WildBot to your server
+### 5. Invite WildBot to your server
 
 1. In the Developer Portal, go to "OAuth2" → "URL Generator"
 2. Select scopes: `bot` 
 3. Select permissions: `Send Messages`, `Embed Links`, `Attach Files`, `Read Message History` 
 4. Copy and visit the generated link to invite the bot
 
-### 4. Run the bot
+### 6. Run the bot
 
 ```bash
 python bot.py
