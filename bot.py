@@ -236,7 +236,6 @@ async def random_animal(ctx, *, animal_name: str):
     embed.set_image(url=photo_url)
     embed.add_field(name="Location", value=place, inline=True)
     embed.add_field(name="Observer", value=observer, inline=True)
-    embed.add_field(name="Date Observed", value=observed_on, inline=True)
 
     embed.set_footer(text=f"Not the right animal? Try !taxonhelp {animal_name}")
 
@@ -330,7 +329,6 @@ async def random_deer(ctx):
     embed.set_image(url=photo_url)
     embed.add_field(name="Location", value=place, inline=True)
     embed.add_field(name="Observer", value=observer, inline=True)
-    embed.add_field(name="Date Observed", value=observed_on, inline=True)
 
     await ctx.send(embed=embed)
 
